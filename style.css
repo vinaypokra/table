@@ -1,0 +1,37 @@
+h1,
+p {
+  font-family: Lato;
+}
+body {
+  background-color: rgb(63, 66, 66);
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+
+  width: 100%;
+  background-color: rgba(97, 117, 153, 0.534);
+  backdrop-filter: saturate(180%) blur(10px);
+  border-radius: 28px;
+}
+
+td,
+th {
+  border: 1px solid #000000a2;
+  text-align: left;
+  padding: 16px;
+  color: rgb(207, 234, 250);
+}
+
+tr:nth-child(even) {
+  /* background-color: #bbc0ee; */
+}
+.butonGrp {
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+img {
+  border-radius: 50%;
+}
